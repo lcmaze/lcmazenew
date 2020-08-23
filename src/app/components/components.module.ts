@@ -12,10 +12,11 @@ import { PrimeboxComponent } from './primebox/primebox.component';
 import { HeadingComponent } from './heading/heading.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { ServicesComponent } from './services/services.component';
+import { PortfolioCardsComponent } from './portfolio-cards/portfolio-cards.component';
 
 
 @NgModule({
-  declarations: [NavbarComponent, FooterComponent, BannerComponent, VideobannerComponent, TestimonialsComponent, HeaderComponent, PrimeboxComponent, HeadingComponent, CategoriesComponent, ServicesComponent],
+  declarations: [NavbarComponent, FooterComponent, BannerComponent, VideobannerComponent, TestimonialsComponent, HeaderComponent, PrimeboxComponent, HeadingComponent, CategoriesComponent, ServicesComponent, PortfolioCardsComponent],
   imports: [
     CommonModule,
     RouterModule,
@@ -31,7 +32,8 @@ import { ServicesComponent } from './services/services.component';
     PrimeboxComponent,
     HeadingComponent,
     CategoriesComponent,
-    ServicesComponent
+    ServicesComponent,
+    PortfolioCardsComponent
   ]
 })
 export class ComponentsModule { }

@@ -1,0 +1,16 @@
+.w-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cnt {
+    font-size: 20px;
+    font-weight: 300;
+    color: #3d3d3d;
+}
+
+@media(max-width:1600px) {
+    .w-80 {
+        width: 90%;
+    }
+}

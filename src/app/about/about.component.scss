@@ -1,0 +1,41 @@
+.w-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.details {
+    p {
+        font-size: 20px;
+        font-weight: 300;
+        color: #3d3d3d;
+    }
+    .icons {
+        text-align: color;
+        img {
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+
+.mv {
+    box-shadow: 0 6px 15px 0px #00000020;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 60px;
+    overflow: hidden;
+    // border: 1px solid var(--prime);
+    .mission {
+        background-color: var(--prime);
+        color: #fff;
+    }
+    .vision {
+        color: #3d3d3d;
+    }
+}
+
+@media(max-width:1600px) {
+    .w-80 {
+        width: 90%;
+    }
+}

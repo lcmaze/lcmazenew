@@ -1,0 +1,94 @@
+<section *ngIf="!inverted">
+    <div class="w-80">
+        <div class="row mx-0">
+            <div class="col-lg-7 col-xl-8 p-0">
+                <app-heading [small]=smallcap [big]=bigcap></app-heading>
+                <div class="content mt-4">
+                    <p>
+                        {{description}}
+                    </p>
+                </div>
+                <div class="categories mt-4">
+                    <div class="row">
+                        <div class="col-6 p-1 p-md-3">
+                            <a class="cat" (click)="btnclick1()">
+                                <img [src]="'assets/images/categories/' + icn1" alt="">
+                                <h3>{{cap1}}</h3>
+                            </a>
+                        </div>
+                        <div class="col-6 p-1 p-md-3">
+                            <a class="cat" (click)="btnclick2()">
+                                <img [src]="'assets/images/categories/' + icn2" alt="">
+                                <h3>{{cap2}}</h3>
+                            </a>
+                        </div>
+                        <div class="col-6 p-1 p-md-3">
+                            <a class="cat" (click)="btnclick3()">
+                                <img [src]="'assets/images/categories/' + icn3" alt="">
+                                <h3>{{cap3}}</h3>
+                            </a>
+                        </div>
+                        <div class="col-6 p-1 p-md-3">
+                            <a class="cat" (click)="btnclick4()">
+                                <img [src]="'assets/images/categories/' + icn4" alt="">
+                                <h3>{{cap4}}</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-xl-4 p-0 pl-lg-5 d-flex align-items-center">
+                <img class="side-img mt-4 mt-lg-0" [src]="'assets/images/categories/' + image" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section *ngIf="inverted">
+    <div class="w-80">
+        <div class="row mx-0" style="flex-flow: wrap-reverse !important;">
+            <div class="col-lg-5 col-xl-4 p-0 pr-lg-5 d-flex align-items-center">
+                <img class="side-img mt-4 mt-lg-0" [src]="'assets/images/categories/' + image" alt="">
+            </div>
+            <div class="col-lg-7 col-xl-8 p-0 pl-lg-5 d-flex justify-content-end">
+                <div class="">
+                    <app-heading [small]=smallcap [big]=bigcap></app-heading>
+                    <div class="content mt-4">
+                        <p>
+                            {{description}}
+                        </p>
+                    </div>
+                    <div class="categories mt-4">
+                        <div class="row">
+                            <div class="col-6 p-1 p-md-3">
+                                <a class="cat" (click)="btnclick1()">
+                                    <img [src]="'assets/images/categories/' + icn1" alt="">
+                                    <h3>{{cap1}}</h3>
+                                </a>
+                            </div>
+                            <div class="col-6 p-1 p-md-3">
+                                <a class="cat" (click)="btnclick2()">
+                                    <img [src]="'assets/images/categories/' + icn2" alt="">
+                                    <h3>{{cap2}}</h3>
+                                </a>
+                            </div>
+                            <div class="col-6 p-1 p-md-3">
+                                <a class="cat" (click)="btnclick3()">
+                                    <img [src]="'assets/images/categories/' + icn3" alt="">
+                                    <h3>{{cap3}}</h3>
+                                </a>
+                            </div>
+                            <div class="col-6 p-1 p-md-3">
+                                <a class="cat" (click)="btnclick4()">
+                                    <img [src]="'assets/images/categories/' + icn4" alt="">
+                                    <h3>{{cap4}}</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

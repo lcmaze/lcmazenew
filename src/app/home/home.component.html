@@ -1,0 +1,59 @@
+<app-navbar [navbar]="false"></app-navbar>
+<app-videobanner></app-videobanner>
+
+
+<div class="py-5">
+    <div class="py-5">
+        <app-categories [inverted]=true smallcap="Solution for Websites" bigcap="Web Development" image="webdevelopment.svg" icn1="webapp.svg" cap1="Web Application" (click1)="linkto('web-application')" icn2="cms.svg" cap2="Content Management System" (click2)="linkto('content-management-system')"
+            icn3="ecommerce.svg" cap3="E-commerce" (click3)="linkto('e-commerce')" icn4="backend.svg" cap4="Backend Solutions" (click4)="linkto('backend')" description="Our latest development techniques with modern technologies create and innovative experiences enabling our customers to achieve their business objectives. Our web designs are tailor made to the user’s requirements and ensure best customer satisfaction in the industry."></app-categories>
+    </div>
+</div>
+
+<div class="py-5">
+    <div class="py-5">
+        <app-categories [inverted]=false smallcap="Solution for Apps" bigcap="Mobile Apps Development" image="appdevelopment.svg" icn1="android.svg" cap1="Android Apps" (click1)="linkto('android')" icn2="apple.svg" cap2="IOS Apps" (click2)="linkto('ios')" icn3="hybrid.svg"
+            cap3="Hybrid Apps" (click3)="linkto('hybrid')" icn4="utility.svg" cap4="Utility Apps" (click4)="linkto('utility')" description="We offer a variety of App development services, which can be tailored to meet your needs. Our team of developers have designed and delivered user-centric applications to our clients."></app-categories>
+    </div>
+</div>
+
+<div class="py-5">
+    <div class="py-5">
+        <app-categories [inverted]=true smallcap="Solution for Marketing" bigcap="Digital Marketing" image="digitalmarketing.svg" icn1="socialmedia.svg" cap1="Social Media" (click1)="linkto('social-media')" icn2="webanalytics.svg" cap2="Web Analytics" (click2)="linkto('web-analyics')"
+            icn3="seo.svg" cap3="SEO" (click3)="linkto('seo')" icn4="ads.svg" cap4="Ads Management" (click4)="linkto('ads')" description="We creates and implements aligned advertising campaigns and interactive solutions for organizations of all sizes, and our strategies are designed to reach and influence your target audience in the most cost-effective ways."></app-categories>
+    </div>
+</div>
+
+<div class="py-5">
+    <div class="py-5">
+        <app-categories [inverted]=false smallcap="Solution for Designs" bigcap="Web Designing" image="webdesigning.svg" icn1="corporate.svg" cap1="Corporate Websites" (click1)="linkto('corporate-websites')" icn2="ui.svg" cap2="UI Designing" (click2)="linkto('ui-ux-design')"
+            icn3="responsive.svg" cap3="Responsive Designs" (click3)="linkto('responsive-web')" icn4="hosting.svg" cap4="Web Hosting" (click4)="linkto('hosting')" description="LCMAZE creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals."></app-categories>
+    </div>
+</div>
+
+<div class="pt-5">
+    <div class="pt-5">
+        <div class="pt-5">
+            <app-banner smallcap="What we are" bigcap="About LCMAZE" (clicks)="about()" description="We guide clients for building their unique online platform to standout among the competitors on a global level. Brand awareness and recognition is our goal for clients. LCMAZE, the frontrunner in Online Business solutions has helped
+            many organizations to transition their businesses from the traditional marketing to the online platform. On web based services and online marketing strategy, we have the best team of programmers, graphic designers, SEO professionals
+            , efficient content writers, E-Commerce solutions, Digital Marketing experts."></app-banner>
+        </div>
+    </div>
+</div>
+
+<div class="pt-5">
+    <div class="pt-5">
+        <div class="pt-5">
+            <div class="pt-5">
+                <app-testimonials bigcap="Testimonials" smallcap="What Our Clients Say"></app-testimonials>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pt-5">
+    <div class="pt-5">
+        <div class="pt-5">
+            <app-footer></app-footer>
+        </div>
+    </div>
+</div>

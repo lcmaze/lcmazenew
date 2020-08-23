@@ -1,0 +1,22 @@
+<section>
+    <div class="w-80">
+        <app-heading [small]="smallcap" [big]="bigcap"></app-heading>
+
+        <div class="mt-5">
+            <owl-carousel [options]="options" [items]="detail" [carouselClasses]="['owl-theme', 'sliding']">
+                <div class="item my-3 px-2" *ngFor="let list of detail;let i = index">
+                    <div class="slide">
+                        <div class="cnt">
+                            <p><span>"</span>{{list.text}}</p>
+                        </div>
+                        <img class="prof-img" src={{list.image}} alt="">
+                        <div class="identity">
+                            <h5 class="mb-1">{{list.name}}</h5>
+                            <h6>{{list.designation}}</h6>
+                        </div>
+                    </div>
+                </div>
+            </owl-carousel>
+        </div>
+    </div>
+</section>
